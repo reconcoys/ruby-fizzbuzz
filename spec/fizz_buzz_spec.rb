@@ -20,4 +20,7 @@ describe FizzBuzz do
   it 'should return fizz when multiple of 3' do
     expect(@fb.fizzbuzz(9)).to eq('fizz')
   end
+  it 'should return buzz when 5 is passed in' do
+    expect(@fb.fizzbuzz(5)).to eq('fizz')
+  end
 end
