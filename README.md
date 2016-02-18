@@ -1,4 +1,4 @@
-# ruby-fizzbuzz
+# FizzBuzz written in Ruby
 
 ##Run Tests
 
