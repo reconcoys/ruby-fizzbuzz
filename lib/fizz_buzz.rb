@@ -3,7 +3,7 @@ class FizzBuzz
     case
       when number % 3 == 0
         'fizz'
-      when number == 5
+      when number % 5 == 0
         'buzz'
       else
         number
