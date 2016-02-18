@@ -1,5 +1,5 @@
 class FizzBuzz
   def fizzbuzz(number)
-    number == 3 ? 'fizz' : number
+    number % 3 == 0 ? 'fizz' : number
   end
 end
