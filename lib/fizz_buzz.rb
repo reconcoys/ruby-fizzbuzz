@@ -4,7 +4,7 @@ class FizzBuzz
       when number % 3 == 0
         'fizz'
       when number == 5
-        'fizz'
+        'buzz'
       else
         number
     end

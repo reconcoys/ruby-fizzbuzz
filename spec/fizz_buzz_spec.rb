@@ -21,6 +21,6 @@ describe FizzBuzz do
     expect(@fb.fizzbuzz(9)).to eq('fizz')
   end
   it 'should return buzz when 5 is passed in' do
-    expect(@fb.fizzbuzz(5)).to eq('fizz')
+    expect(@fb.fizzbuzz(5)).to eq('buzz')
   end
 end
